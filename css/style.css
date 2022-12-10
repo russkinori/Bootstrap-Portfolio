@@ -1,4 +1,8 @@
+:root {
+    --primary-color: #42cdd4;
+    --secondary-color: #323363;
 
+}
 
 * {
     box-sizing: border-box;
@@ -13,52 +17,31 @@ body {
 }
 
 header {
+    background-color: #4f4f5a;
     display: flex;
-    background-image: url(../Images/hero.png);
-    background-size: cover;
-    height: 95px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    height: 100px;    
 }
 
-header h1 {
-    background-color: aliceblue;
-    padding: 0px 10px 0px 60px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-.banner {
-flex-direction: column;
-    
+#header-logo {
+    width: 100px;
+    height: 60px;
 }
 
-.logo {
-    width: fit-content;
+header h2 {
+    background-color: var(--primary-color);
+    padding-right: 5px;
 }
+
 .navbar {
     text-decoration: underline;
-}
-
-a {
-    color: azure;
-}
-
-.row  {
-    
-
-  .row {
-    max-height: 300px;
-}
-.jumbotron {
-    width: 60% !important;
+    margin-right: 40px;
     
 }
 
-.row img {
-    height: 100px;
+.nav-item {
+    margin-left: 10px;
+    color: #42cdd4 !important;
 }
 
-.card {
-    
-}
