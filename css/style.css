@@ -56,18 +56,41 @@ header h2 {
 }
 
 .hero {
-    background-color: beige;
-    height: 300px;
+    background: url('../Images/logo2.png');
+    background-size: 300px 400px;
     align-items: center;    
     justify-content: space-around;
-    
-
+}
+/* change size of image in hero banner */
+#self-portrait {
+    max-height: auto;
+    max-width: 200px;
 }
 
 .jumbotron {
-    background-color: inherit;
-    padding: 0;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    max-width: 800px;
+    color: var(--secondary-color);
 }
+
+.display-4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    padding: 10px 50px;
+    display: inline-flex;
+    justify-self: center;
+    margin: auto;
+    
+}
+
 
 
 @media screen {
