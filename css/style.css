@@ -14,6 +14,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #4f4f5a;
     
 }
 
@@ -91,28 +92,67 @@ header h2 {
     
 }
 
+.grid {
+    /* justify-content: space-around; */
+}
+
 .card {
-    border: solid var(--primary-color);
-    margin: 10px;
+    width: 300px;
+    height: 250px;
+    border: solid thick var(--primary-color);
     padding: 0;
-    gap: 20px;
-    transition: 0.3s;
+    margin: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+.card * {
+    transition: 0.3s ease all;
+}
+
+.card a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.card img {
+    margin: 0;
+    object-fit: cover;
+    display: block;
+}
+
+.card:hover img, .card:focus-within img {
+    margin-top: -300px;
 }
 
 .card-text {
     font-size: 90px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-align: right;
+
 }
 
-.card-body {
+#semantic {
+    height: 500px;
+}
+
+#work {
+    /* margin-left: 25px; */
+}
+
+.skills {
+    height: 115px;
     text-align: center;
-    text-decoration: none;
-    color: var(--secondary-color);
 }
 
-a:hover {
-    
+.skills h3{
+    display: inline-block;
+    font-size: 36px;
+    margin: 35px;
+
 }
 
 @media screen {
