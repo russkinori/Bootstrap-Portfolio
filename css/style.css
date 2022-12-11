@@ -1,9 +1,10 @@
+/* css variables */
 :root {
     --primary-color: #42cdd4;
     --secondary-color: #323363;
 
 }
-
+/* universal styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -24,14 +25,22 @@ header {
     height: 100px;    
 }
 
+.dev-name {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+
+/* adjust size of logo image */
 #header-logo {
     width: 100px;
-    height: 60px;
+    height: 50px;
 }
+
 
 header h2 {
     background-color: var(--primary-color);
-    padding-right: 5px;
+    padding: 6px 5px;
 }
 
 .navbar {
@@ -40,8 +49,15 @@ header h2 {
     
 }
 
+/* styling for navigation links */
 .nav-item {
     margin-left: 10px;
-    color: #42cdd4 !important;
+    color: var(--primary-color) !important;
 }
 
+
+
+
+@media screen {
+    
+}
