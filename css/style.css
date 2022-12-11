@@ -144,15 +144,15 @@ header h2 {
 }
 
 .skills {
-    height: 115px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.skills h3{
+h3{
     display: inline-block;
     font-size: 36px;
     margin: 35px;
-
 }
 
 @media screen {
