@@ -91,7 +91,29 @@ header h2 {
     
 }
 
+.card {
+    border: solid var(--primary-color);
+    margin: 10px;
+    padding: 0;
+    gap: 20px;
+    transition: 0.3s;
+}
 
+.card-text {
+    font-size: 90px;
+    color: var(--secondary-color);
+    text-align: right;
+}
+
+.card-body {
+    text-align: center;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+a:hover {
+    
+}
 
 @media screen {
     
