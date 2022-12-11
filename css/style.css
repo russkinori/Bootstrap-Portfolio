@@ -69,7 +69,7 @@ header h2 {
 }
 
 .jumbotron {
-    background-color: var(--primary-color);
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,6 +141,7 @@ header h2 {
 
 #semantic {
     height: 400px;
+    margin-left: 20px;
 }
 
 #semantic:hover img, #semantic:focus-within img {
@@ -153,14 +154,18 @@ header h2 {
 
 .skills {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    height: 150px;
+    margin-left: 20px;
 }
 
 h3{
-    display: inline-block;
+    /* display: flex;
+    align-self: flex-end; */
     font-size: 36px;
-    margin: 35px;
+    /* margin: 35px; */
 }
 
 h4{
@@ -168,10 +173,14 @@ h4{
     font-size: 20px;
     margin: 35px;
     text-decoration: underline;
+    color: var(--primary-color);
 }
 
 footer {
     text-align: center;
     color: aliceblue;
-    
+}
+
+#message {
+    font-size: 26px;
 }
