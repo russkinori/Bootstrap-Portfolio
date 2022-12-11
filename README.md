@@ -12,7 +12,7 @@ Skills covered include: html, flexbox, media queries, and CSS variables.
 ## Usage
 To use this webpage, click on the following link: https://russkinori.github.io/Bootstrap-Portfolio/.
 
-A browser window will open and load the webpage. You can then navigate through the page by clicking on the links within the header (top right of the page) **Work** - will take you to the projects that I've completed, **Skills** - will show you how I may best service your needs and **Contact Me** - to find out more about me and get in touch. You are also able to scroll through the webpage using either your mouse or the arrow keys on your keyboard. Clicking on any of the **Social Media** links within the **Contact Me**section, at the bottom of the page will open a new tab to my profile on the respective website.
+A browser window will open and load the webpage. You can then navigate through the page by clicking on the links within the header (top right of the page). **Work** - will take you to the projects that I have completed, **Skills** - will show you how I may best service your needs and **Contact Me** - to find out more about me and get in touch. You are also able to scroll through the webpage using either your mouse or the arrow keys on your keyboard. Clicking on any of the **Social Media** links within the **Contact Me** section, at the bottom of the page, will open a new tab to my profile on the respective website.
 
 A visual representation of the webpage can be seen in the screenshot below.
 
@@ -22,11 +22,11 @@ A visual representation of the webpage can be seen in the screenshot below.
 
 ## Credits
 Material used to facilitate the learning experience is listed below: 
-- https://css-tricks.com/snippets/css/complete-guide-grid/
-- https://www.geeksforgeeks.org/
+- https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/
+- https://getbootstrap.com/docs/4.0/layout/grid/
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel
-- https://web.dev/building-split-text-animations/
-- https://learn.coderslang.com/0124-how-to-open-a-link-in-a-new-tab-in-html/#:~:text=How%20to%20Open%20a%20Link%20in%20a%20New,no%20referrer%20and%20no%20opener%20to%20the%20link
+- https://www.30secondsofcode.org/css/s/hover-additional-content
+- https://www.freecodecamp.org/news/a-quick-guide-to-styling-buttons-using-css-f64d4f96337f/
 <br>
 <br>
 
