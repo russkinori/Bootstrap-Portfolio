@@ -1,11 +1,9 @@
 # Bootstrapping
 
-# Russ-Portfolio
-
 ## Description
-This repo covers the creation of a portfolio page. The aim was to showcase my skills and talents to employers looking to fill a part-time or full-time position. The portfolio highlights some of my strongest work as well as the thought processes behind it.
+This repo covers the creation of a portfolio page using bootstrap. The aim was to utilise bootstrap to minimise the workload of creating a webpage. This also showcases my skills and talents to employers looking to fill a part-time or full-time position. The portfolio highlights some of my strongest work as well as the thought processes behind it can be accessed from the webpage.
 
-Skills covered include: html, flexbox, media queries, and CSS variables. 
+Skills covered include: html, flexbox, bootstrap, css and css variables. 
 <br>
 <br>
 
