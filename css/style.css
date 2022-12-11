@@ -98,7 +98,7 @@ header h2 {
 
 .card {
     width: 300px;
-    height: 250px;
+    height: 200px;
     border: solid thick var(--primary-color);
     padding: 0;
     margin: 10px;
@@ -125,7 +125,7 @@ header h2 {
 }
 
 .card:hover img, .card:focus-within img {
-    margin-top: -300px;
+    margin-top: -350px;
 }
 
 .card-text {
@@ -136,7 +136,11 @@ header h2 {
 }
 
 #semantic {
-    height: 500px;
+    height: 400px;
+}
+
+#semantic:hover img, #semantic:focus-within img {
+    margin-top: -650px;
 }
 
 #work {
@@ -155,18 +159,3 @@ h3{
     margin: 35px;
 }
 
-@media screen and (max-width: 900px) {
-    .grid {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .card-text {
-        font-size: 70px;
-        text-align: center;    
-    }
-
-    .work-img {
-        text-align: center;
-    }
-}
