@@ -14,7 +14,7 @@ A browser window will open and load the webpage. You can then navigate through t
 
 A visual representation of the webpage can be seen in the screenshot below.
 
-![The portfolio webpage includes a header with a navigation bar, a banner image, and cards with text and images, as well as a footer.](./Images/screenshot.png)
+![The portfolio webpage includes a header with a navigation bar, a banner image, and cards with text and images, as well as a footer.](./Images/screensot.png)
 <br>
 <br>
 
